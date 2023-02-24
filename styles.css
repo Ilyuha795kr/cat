@@ -6,6 +6,13 @@
 body{
     background-image: url('image/fon.jpg');
 }
+.block{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: 280px;
+}
+
 
 h1{
     background-color: white;
@@ -27,12 +34,18 @@ h1{
     background-color: aqua;
     transition: .6s;
     align-items: center;
+    position: absolute;
+    left: 223px;
+    top: 56px;
 }
 .img{
     border-radius: 35%;
     width: 250px;
     height: 250px;
     margin: auto;
+    position: absolute;
+    right: 410px;
+    top: 0;
 }
 section{
     text-align: center;
@@ -51,7 +64,7 @@ h2{
 
 .head{
     width: 600px;
-    height: 600px;
+    height: 400px;
 }
 
 
